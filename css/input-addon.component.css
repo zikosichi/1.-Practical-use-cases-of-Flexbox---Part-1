@@ -1,0 +1,43 @@
+/*Input Addon Component*/
+.input-addon{
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 10px 0;
+    -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+.input-addon button{
+    cursor: pointer;
+}
+    /*Input addon item*/
+    .input-addon__item {
+        padding: 0 20px;
+        border: none;
+        display: block;
+        background-color: #FFF;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;        
+    }
+        /*With different colors*/
+        .input-addon__item.purple {
+            color: #A434A7;
+        }
+        .input-addon__item.yellow {
+            color: #FFB819;
+        }
+
+    /*Input field*/
+    .input-addon__input {
+        flex-grow: 1;
+        min-width: 0;
+        font-size: 20px;
+        padding: 15px;
+        border: 1px solid #EEE;
+        border-top: none;
+        border-bottom: none;
+    }
