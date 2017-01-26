@@ -42,4 +42,15 @@
                 margin-top: 5px;
                 color: #AAA;
                 margin-bottom: 0;
+                line-height: 1.2em;
+
+                /*FOR MULTILINE ELLIPSIS*/
+                display: block; /* Fallback for non-webkit */
+                display: -webkit-box;
+                width: 100%;
+                height: 40px; /* Fallback for non-webkit */
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                text-overflow: ellipsis;
             }
